@@ -2,6 +2,14 @@
   "name": "barebone",
   "version": "1.0.0",
   "description": "A minimum webapp to show how a wnode webapp can be built",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benlue/wa-barebone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benlue/wa-barebone/issues"
+  },
+  "homepage": "https://github.com/benlue/wa-barebone#readme",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"

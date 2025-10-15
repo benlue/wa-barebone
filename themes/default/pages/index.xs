@@ -32,7 +32,7 @@ function createWelcomeSection() {
 function createPageHeader() {
     return  xs.div()
               .add(
-                    xs.e('h1', {class: 'display-3 fw-bold text-primary mb-4'}, 'Welcome to Barebone')
+                    xs.e('h1', {class: 'display-3 fw-bold text-primary mb-4'}, 'Barebone MiniApp')
                   )
               .add(
                     xs.e('p', {class: 'lead text-muted mb-4'}, 'A minimal webapp template to show how a wnode application can be built.')
