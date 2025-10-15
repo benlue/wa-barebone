@@ -1,0 +1,21 @@
+{
+  "name": "barebone",
+  "version": "1.0.0",
+  "description": "A minimum webapp to show how a wnode webapp can be built",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "wnode",
+    "webapp",
+    "bootstrap5",
+    "template"
+  ],
+  "author": "Ben Lue",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
