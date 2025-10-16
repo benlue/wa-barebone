@@ -14,7 +14,7 @@ barebone/
 │   ├── layout/
 │   │   └── default.xs          # Default layout template
 │   ├── pages/
-│   │   └── home.xs             # Home page
+│   │   └── index.xs            # Home page
 │   └── palets/                 # Reusable HTML fragments (empty in this minimal app)
 ├── assets/                     # Static files (CSS, JS, images)
 ├── doc/references/             # wnode coding patterns and documentation
@@ -28,7 +28,7 @@ barebone/
 This app uses a single default layout located at `themes/default/layout/default.xs`. Layouts define the overall page structure (header, footer, navigation) that wraps around page content.
 
 ### Pages
-Currently includes one page: `themes/default/pages/home.xs`. Pages are the entry points accessible via URLs and typically compose multiple palets to create complete views.
+Currently includes one page: `themes/default/pages/index.xs`. Pages are the entry points accessible via URLs and typically compose multiple palets to create complete views.
 
 ### Palets
 Palets are reusable HTML fragments that can be embedded within pages. They help keep pages simple and maintainable by breaking down complex UIs into smaller, focused components.
