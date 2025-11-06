@@ -34,12 +34,3 @@ Currently includes one page: `themes/default/pages/index.xs`. Pages are the entr
 Palets are reusable HTML fragments that can be embedded within pages. They help keep pages simple and maintainable by breaking down complex UIs into smaller, focused components.
 
 Since this is a minimal starter app with just a home page, the `palets` directory is empty. As your application grows, you'll create palets for common UI components like forms, tables, navigation menus, etc.
-
-## Vibe Coding (AI-Assisted Development)
-
-This project is optimized for AI-assisted development (sometimes called "Vibe Coding"). It includes a `CLAUDE.md` file and comprehensive wnode documentation in the `doc/references/` directory to help AI coding tools like Claude Code understand wnode's coding patterns and architecture.
-
-If you use AI coding tools other than Claude Code, you can adapt the `CLAUDE.md` file to match your tool's convention:
-- **Cursor**: `.cursorrules`
-- **GitHub Copilot**: `.github/copilot-instructions.md`
-- **Other tools**: Check your tool's documentation for the appropriate filename

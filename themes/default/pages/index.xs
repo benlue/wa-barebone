@@ -1,5 +1,3 @@
-exports.checkIn = {};
-
 
 /**
  * This is the main function to generate the view.

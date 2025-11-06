@@ -1,6 +1,6 @@
 {
   "name": "barebone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimum webapp to show how a wnode webapp can be built",
   "repository": {
     "type": "git",
